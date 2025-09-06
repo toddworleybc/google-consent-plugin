@@ -1,0 +1,16 @@
+Copyright (c) 2025 Todd Worley
+
+Permission is hereby granted to any person to view the contents of this repository 
+for personal or educational purposes only.
+
+All other rights are reserved. Without prior written consent from the copyright 
+holder, you may not:
+
+- Copy or reproduce any part of this code
+- Distribute or publish any portion of this repository
+- Modify, adapt, or create derivative works
+- Use this code for commercial purposes
+
+Unauthorized use of this repository or its contents may be subject to legal action.
+
+For licensing inquiries or requests for permission, please contact: todd@evergreenbydesign.com
