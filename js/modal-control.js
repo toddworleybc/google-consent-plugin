@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function modalOpenCheck() {
 
-    if(ebd_gc_control.is_logged_in) return false; // Don't show modal to logged in users
+    // if(ebd_gc_control.is_logged_in) return false; // Don't show modal to logged in users
    
     const privacyPolicyPath = ebd_gc_options.privacy_policy_path;
 
