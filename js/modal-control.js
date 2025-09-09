@@ -41,7 +41,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function modalOpenCheck() {
 
-    // if(ebd_gc_control.is_logged_in) return false; // Don't show modal to logged in users
+    const wpAdminBar = document.getElementById('wpadminbar');
+
+    if(wpAdminBar) return false; // Don't show modal if admin bar is present (logged in user)
+    
    
     const privacyPolicyPath = ebd_gc_options.privacy_policy_path;
 
