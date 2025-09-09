@@ -4,7 +4,8 @@
 Plugin Name: Google Consent
 Description: Creates a simple Google Consent pop-up that handles the 4 core Google Analytics Consent types: Analytics, Ads, Marketing, and Personalization. This plugin shows a simple popup that will interact with your google tag and update user consent.
 Author: Evergreen By Design
-Version: 1.0.4
+Version: 1.0.7
+Update URI: https://github.com/toddworleybc/google-consent-plugin
 */
 
 if ( ! defined('ABSPATH') ) exit;
