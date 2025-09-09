@@ -1,4 +1,5 @@
 <?php 
+if ( ! defined('ABSPATH') ) exit;
 
 function ebd_insert_gtag() {
     $gtag_code = get_option('ebd_gc_gtag_js');

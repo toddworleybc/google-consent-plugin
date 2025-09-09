@@ -1,5 +1,8 @@
 <?php
 
+if ( ! defined('ABSPATH') ) exit;
+
+
 add_action('wp_enqueue_scripts', function() {
     // Get options
     $privacy_policy_path = get_option('ebd_gc_privacy_policy_path', 'privacy-policy');

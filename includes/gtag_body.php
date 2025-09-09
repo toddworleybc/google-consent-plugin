@@ -1,5 +1,6 @@
 <?php 
 
+if ( ! defined('ABSPATH') ) exit;
 
 function ebd_insert_noJavascriptTag() {
    
