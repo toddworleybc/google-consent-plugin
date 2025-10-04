@@ -6,15 +6,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
             function checkConditions() {
                 if (scrolled && interacted && stayed5sec && !passedTest) {
-                    document.cookie = 'EbdHumanTest=passed; path=/; max-age=86400'; // lasts 1 day
+                    document.cookie = 'EbdHumanTest=passed; path=/; max-age=300'; // lasts 1 day
                     passedTest = true;
+                    setTimeout(() => { passedTest = false; }, 180000); // reset after 1 day
                 }
             }
 
             // Condition 1: Scroll more than 100px
             window.addEventListener('scroll', function() {
-                if (!scrolled && window.scrollY > 100) {
-                    scrolled = true;
+                
+                if (window.scrollY > 100) {
+                    
+                    if(document.cookie.includes("EbdHumanTest=passed")) return;
+                    console.log("working");
+                    if(!scrolled) scrolled = true;
+                    
                     checkConditions();
                 }
             });

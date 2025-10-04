@@ -182,7 +182,7 @@ function ebd_gc_options_page() {
             </table>
             <?php submit_button(); ?>
         </form>
-        <p>Note: Modal will not show while logged in!</p>
+        <p>Version: <?php echo EBD_GC_VERSION ?> </p>
     </div>
     <?php
 }

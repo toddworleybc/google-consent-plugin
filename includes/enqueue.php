@@ -69,4 +69,13 @@ add_action('wp_enqueue_scripts', function() {
         null,
         true
     );
+
+
+    // wp_enqueue_script(
+    //     'ebd-gc-form-field',
+    //     plugins_url('../js/form-field.js', __FILE__),
+    //     ['js-cookie'],
+    //     null,
+    //     true
+    // );
 });
